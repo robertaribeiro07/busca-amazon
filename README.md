@@ -19,7 +19,7 @@ Este projeto é uma interface web que permite buscar produtos da Amazon Brasil u
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript 
 - RapidAPI – [real-time-amazon-data](https://rapidapi.com/restyler/api/real-time-amazon-data)
 
 ---
@@ -37,8 +37,8 @@ const apiOptions = {
     'x-rapidapi-host': 'real-time-amazon-data.p.rapidapi.com'
   }
 };
-Você pode obter sua chave criando uma conta no RapidAPI e assinando a API real-time-amazon-data.
-Caso gere uma a chave gratuíta, ela ter´um limite de cota por consultas.
+ - Você pode obter sua chave criando uma conta no RapidAPI e assinando a API real-time-amazon-data.
+- Caso gere uma a chave gratuíta, ela ter´um limite de cota por consultas.
 
  ## 3. Abra o projeto no navegador
 Basta abrir o arquivo index.html no seu navegador.
