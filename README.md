@@ -27,6 +27,7 @@ Este projeto é uma interface web que permite buscar produtos da Amazon Brasil u
 ## 2. Configure sua chave da API
 No arquivo api-config.js, substitua a chave do exemplo pela sua chave real gerada no RapidAPI:
 
+```bash
 const apiOptions = {
   method: 'GET',
   headers: {
