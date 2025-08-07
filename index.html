@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Busca Amazon - Via API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    Buscar Produtos da Amazon
+  </header>
+
+  <form id="search-form">
+    <input type="text" id="query" placeholder="Nome do produto" required />
+    
+    <select id="sort">
+      <option value="RELEVANCE">Relevância</option>
+      <option value="LOWEST_PRICE" selected>Menor preço</option>
+      <option value="HIGHEST_PRICE">Maior preço</option>
+      <option value="NEWEST_ARRIVALS">Mais recentes</option>
+    </select>
+
+    <button type="submit">Buscar</button>
+  </form>
+
+  <div id="lista-produtos">Digite um nome e clique em Buscar.</div>
+
+  <div id="pagination"> 
+    <button id="prev">Anterior</button>
+    <span id="page-info">Página 1</span>
+    <button id="next">Próxima</button>
+  </div>
+
+  <script src="api-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

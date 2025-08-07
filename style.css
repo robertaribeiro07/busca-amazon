@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input, select, button {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.produto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 15px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.produto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.titulo {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 16px;
+  height: 48px;
+  overflow: hidden;
+}
+
+.preco {
+  color: green;
+  font-size: 1.2em;
+}
+
+.link {
+  margin-top: 10px;
+  display: block;
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+#pagination {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+  background-color: #0066c0;
+}
+
+#pagination button {
+  padding: 8px 12px;
+  margin: 0 5px;
+}
+
+.header {
+  background-color: #0066c0; 
+  color: white; 
+  padding: 15px 20px; 
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
