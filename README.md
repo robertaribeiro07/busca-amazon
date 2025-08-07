@@ -24,10 +24,31 @@ Este projeto é uma interface web que permite buscar produtos da Amazon Brasil u
 
 ---
 
-## 💻 Como usar localmente
+## 2. Configure sua chave da API
+No arquivo api-config.js, substitua a chave do exemplo pela sua chave real gerada no RapidAPI:
 
+js
+Copiar
+Editar
+const apiOptions = {
+  method: 'GET',
+  headers: {
+    'x-rapidapi-key': 'SUA_CHAVE_AQUI', // Substitua pela sua chave do https://rapidapi.com/restyler/api/real-time-amazon-data
+    'x-rapidapi-host': 'real-time-amazon-data.p.rapidapi.com'
+  }
+};
+Você pode obter sua chave criando uma conta no RapidAPI e assinando a API real-time-amazon-data.
+Caso gere uma a chave gratuíta, ela ter´um limite de cota por consultas.
+
+ ## 3. Abra o projeto no navegador
+Basta abrir o arquivo index.html no seu navegador.
+
+---
+
+## 💻 Como usar localmente
 ### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/SEU_USUARIO/busca-amazon.git
 cd busca-amazon
+
